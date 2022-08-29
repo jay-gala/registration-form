@@ -1,0 +1,17 @@
+
+  
+table{
+    text-align: left;
+    margin-top: 20px;
+    background-color: antiquewhite;
+
+}
+
+#display th{
+    margin-top: 15px;
+    padding: 11px;
+}
+
+#btn td input{
+    width: 100%;
+}

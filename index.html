@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <h1>REGISTRATION FORM</h1>
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <td><input type="text" name="studentName" id="studentName" placeholder="Name of Student"></td>
+        </tr>
+        <tr>
+            <th>Email</th>
+            <td><input type="text" name="email" id="email" placeholder="Email of the Student"></td>
+        </tr>
+        <tr>
+            <th>Roll No.</th>
+            <td><input type="text" name="rollno" id="rollno" placeholder="Roll No. of the Student"></td>
+        </tr>
+        <tr>
+            <th>College Name</th>
+            <td><input type="text" name="collegename" id="collegename" placeholder="College Name"></td>
+        </tr>
+        <tr>
+            <th>Gender</th>
+            <td><input type="text" name="gender" id="gender" placeholder="Gender of the Student"></td>
+        </tr>
+        <tr id="btn">
+            <td><input type="button" name="add" id="btn" value="Add" onclick="AddRow()"></td>
+            <td><input type="reset" name="reset" id="btn" value="Reset" onclick="ResetForm()"></td>
+        </tr>
+    </table>
+    <table id="display" border="1">
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Roll No.</th>
+            <th>College Name</th>
+            <th>Gender</th>
+        </tr>
+    </table>
+    <script src="script.js">
+    </script>
+
+    
+</body>
+</html>
